@@ -1,0 +1,103 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.background{
+  background-image: url("C:\Users\wei_t\Desktop\RecipeShare\RecipeShare\client\vecteezy_spices-for-use-as-cooking-ingredients-on-a-wooden-background_3823542_901.jpg");
+  background-size: cover;
+  background-color: yellow;
+  background-position: center;
+}
+
+.b{
+  font:white;
+}
+
+.NavigationBar{
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.NavigationBar ul{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #222;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.NavigationBar li {
+  font:white;
+  padding:20px;
+}
+
+.NavigationBar li a:hover {
+  color: #0f0;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration-color:white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.button{
+  margin: 5px;
+  padding: 5px;
+}
+
+label{
+  font-size:20px;
+}
+
+input{
+  font-size:18px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.photo {
+  width: calc(33.33% - 6.67px);
+  margin-bottom: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  padding: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.container{
+  background-color:grey 200px ;
+  border:round;
+}
